@@ -7,8 +7,8 @@ const Loader = () => {
         <div className="grid sm:grid-cols-1 mt-2 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center">
           {/* <progress className='progress w-56'></progress> */}
           {Array.from({ length: 12 }).map((_, i) => (
-            <div key={i} className="flex flex-col gap-6">
-              <div className="skeleton h-50 w-full"></div>
+            <div key={i} className="flex flex-col gap-2 mb-6">
+              <div className="skeleton h-40 w-full rounded-b-none"></div>
               <div className="skeleton h-4 w-28"></div>
               <div className="skeleton h-4 w-full"></div>
               <div className="skeleton h-4 w-full"></div>
